@@ -1,9 +1,11 @@
 .navbar {
     height: 100px;
+    background: #0c0c1d;
+    position: relative;
+
 
     .wrapper {
-        max-width: 1366px;
-        margin: auto;
+
         display: flex;
         align-items: center;
         justify-content: space-between;
