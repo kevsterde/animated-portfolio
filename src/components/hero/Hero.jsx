@@ -53,7 +53,7 @@ function Hero() {
                     <motion.h1 variants={textVariants}>FRONT-END DEVELOPER</motion.h1>
                     <motion.div variants={textVariants} className="button">
                         <a href="#">See the lates works</a>
-                        <a href="#" class="contact">Contact Me</a>
+                        <a href="#" class="contact_btn">Contact Me</a>
                     </motion.div>
                     <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />
                 </motion.div>
