@@ -21,25 +21,25 @@ const Services = () => {
 
     const ref = useRef()
 
-    const isInView = useInView(ref, { margin: "-200px" })
+    const isInView = useInView(ref, { margin: "10px" })
 
     return (
         <motion.div className='services' variants={variants} initial="initial" ref={ref}
             animate={isInView && "animate"}
         >
             <motion.div className="textContainer" variants={variants}>
-                <p>I focus on helping your brand grow
-                    <br /> and move forward
+                <p>I have 1 year experience
+                    <br /> as a developer
                 </p>
                 <hr />
             </motion.div>
             <motion.div className="titleContainer" variants={variants}>
                 <div className="title">
                     <img src="/people.webp" alt="   " />
-                    <h1><b>Unique</b> Ideas</h1>
+                    <h1><b>My</b> Current</h1>
                 </div>
                 <div className="title">
-                    <h1><b>For Your</b> Business.</h1>
+                    <h1><b>Tech</b> Stack.</h1>
                     <button>What We Do?</button>
                 </div>
 
@@ -47,24 +47,47 @@ const Services = () => {
             </motion.div>
             <motion.div className="listContainer" variants={variants}>
                 <div className="box">
-                    <h2>Branding</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid vel quod commodi optio velit, dignissimos similique sapiente officiis saepe magni!</p>
-                    <button>Go</button>
+                    <h2>Front-end</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS
+                            <ul>
+                                <li>Bootstrap</li>
+                                <li>Tailwind</li>
+                                <li>Scss</li>
+                            </ul>
+
+                        </li>
+                        <li>Javascript
+
+                            <ul>
+                                <li>React</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
                 <div className="box">
-                    <h2>Branding</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid vel quod commodi optio velit, dignissimos similique sapiente officiis saepe magni!</p>
-                    <button>Go</button>
+                    <h2>Back-end</h2>
+                    <ul>
+                        <li>PHP</li>
+                    </ul>
                 </div>
                 <div className="box">
-                    <h2>Branding</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid vel quod commodi optio velit, dignissimos similique sapiente officiis saepe magni!</p>
-                    <button>Go</button>
+                    <h2>Database</h2>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>Firebase</li>
+                        <li>MongoDb</li>
+                    </ul>
                 </div>
                 <div className="box">
-                    <h2>Branding</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid vel quod commodi optio velit, dignissimos similique sapiente officiis saepe magni!</p>
-                    <button>Go</button>
+                    <h2>Others</h2>
+                    <ul>
+                        <li>Git</li>
+                        <li>Figma</li>
+                        <li>Bubble.io</li>
+                        <li>Wordpress</li>
+                    </ul>
                 </div>
 
             </motion.div>

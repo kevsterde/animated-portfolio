@@ -1,9 +1,22 @@
+@import "../../app.scss";
+
+
 .contact {
     height: 100%;
     max-width: 1400px;
     margin: auto;
     display: flex;
     align-items: center;
+
+    @include desktop {
+        padding: 0 20px;
+    }
+
+    @include mobile {
+        flex-direction: column;
+        padding: 40px 20px;
+        justify-content: center;
+    }
 
     gap: 50px;
 
@@ -13,9 +26,19 @@
         flex-direction: column;
         gap: 20px;
 
+        @include mobile {
+            text-align: center;
+            justify-content: center;
+            flex: none;
+        }
+
         h1 {
             font-size: 100px;
             line-height: 100%;
+
+            @include tablet {
+                font-size: 60px;
+            }
         }
 
         span {

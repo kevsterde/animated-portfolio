@@ -6,21 +6,24 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion"
 const items = [
     {
         id: 1,
-        title: "React Commerce",
-        img: "https://images.pexels.com/photos/18407796/pexels-photo-18407796/free-photo-of-woman-walking-in-tunnel-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel voluptas perspiciatis, quae veritatis aut hic rem magnam provident ducimus consequuntur! Odit nihil pariatur accusantium delectus aliquid ducimus quae officia.",
+        title: "KWR Font",
+        img: "./kwrfont.png",
+        desc: "KWRFONT is a website where you can store, access, and utilize style fonts css with just copy & paste to your stylesheet.",
+        link: "https://kevsterde.great-site.net/kwrfont/",
     },
     {
         id: 2,
-        title: "Next Js Commerce",
-        img: "https://images.pexels.com/photos/3075449/pexels-photo-3075449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel voluptas perspiciatis, quae veritatis aut hic rem magnam provident ducimus consequuntur! Odit nihil pariatur accusantium delectus aliquid ducimus quae officia.",
+        title: " KWR Generator",
+        img: "/kwrgenerator.webp",
+        desc: "I created this kwrgenerator to develop the website effeciently by inputting only the title, paragraphs, alt value then returning a html structured and css style.",
+        link: "https://kevsterde.github.io/kwrgenerator/"
     },
     {
         id: 3,
-        title: "Shopify Commerce",
-        img: "https://images.pexels.com/photos/13768940/pexels-photo-13768940.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel voluptas perspiciatis, quae veritatis aut hic rem magnam provident ducimus consequuntur! Odit nihil pariatur accusantium delectus aliquid ducimus quae officia.",
+        title: "PawTrain",
+        img: "/pawtrain.webp",
+        desc: "Dog Website using Tailwind CSS",
+        link: "https://kevsterde.github.io/tailwind1/"
     },
     {
         id: 4,
@@ -49,11 +52,11 @@ const Single = ({ item }) => {
                 <div className="container">
 
 
-                    <img ref={ref} src={item.img} alt="" />
-                    <motion.div style={{ y }} className="textContainer">
+                    <motion.img ref={ref} src={item.img} alt={item.title} />
+                    <motion.div style={{ y }} className="textContainer" >
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>See Demo</button>
+                        <a href={item.link} target='_blank'>See Demo</a>
                     </motion.div>
                 </div>
             </div>
@@ -77,7 +80,7 @@ const Portfolio = () => {
     return (
         <div className='portfolio' ref={ref}>
             <div className="progress">
-                <h1>Featured Works</h1>
+                <h1>Personal Works</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
             </div>
             {items.map(item => (

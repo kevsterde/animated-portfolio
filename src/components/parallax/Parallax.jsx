@@ -17,7 +17,7 @@ const Parallax = ({ type }) => {
     return (
         <div ref={ref} className='parallax' style={{ background: type === "services" ? "linear-gradient(to top, #0c0c1d, #111132)" : "linear-gradient(to top, #505064, #111132)" }}>
 
-            <motion.h1 style={{ y: yText }}>{type === "services" ? "What We Do" : "What We Did"}</motion.h1>
+            <motion.h1 style={{ y: yText }}>{type === "services" ? "What I Know" : "What I Did"}</motion.h1>
             <motion.div className="mountains"></motion.div>
             <motion.div style={{ y: yBg, backgroundImage: `url(${type === "services" ? "/planets.png" : "/sun.png"})` }}
                 className="planets"></motion.div>
