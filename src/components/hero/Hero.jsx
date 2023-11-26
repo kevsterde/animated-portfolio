@@ -38,6 +38,8 @@ const slidingText = {
             repeatType: "mirror"
         }
     }
+
+
 }
 
 
@@ -68,9 +70,21 @@ function Hero() {
 
 
             </motion.div>
-            <div className="imageContainer">
-                <img src="/hero.png" alt="kevin revalde" />
-            </div>
+            <motion.div className="imageContainer" initial={{
+                y: "100%"
+            }}
+
+                animate={{
+                    y: "0%", transition: {
+                        duration: .8,
+
+                    }
+
+                }}
+
+            >
+                <img src="/kwr.png" alt="kevin revalde" />
+            </motion.div>
         </div >
     )
 }

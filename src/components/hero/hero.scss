@@ -78,19 +78,19 @@
         height: 100%;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 200px;
 
 
         @include desktop {
             height: 80%;
             top: unset;
             bottom: 0;
-            right: -40px;
+            // right: -40px;
         }
 
         @include tablet {
-            height: 60%;
-            right: -80px;
+            height: 80%;
+            right: 40px;
         }
 
         @include mobile {

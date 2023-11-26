@@ -21,7 +21,7 @@ const Services = () => {
 
     const ref = useRef()
 
-    const isInView = useInView(ref, { margin: "10px" })
+    const isInView = useInView(ref, { margin: "200px" })
 
     return (
         <motion.div className='services' variants={variants} initial="initial" ref={ref}
@@ -35,12 +35,12 @@ const Services = () => {
             </motion.div>
             <motion.div className="titleContainer" variants={variants}>
                 <div className="title">
-                    <img src="/people.webp" alt="   " />
+                    <img src="/tech.png" alt="   " />
                     <h1><b>My</b> Current</h1>
                 </div>
                 <div className="title">
                     <h1><b>Tech</b> Stack.</h1>
-                    <button>What We Do?</button>
+                    <button>What I Do?</button>
                 </div>
 
 

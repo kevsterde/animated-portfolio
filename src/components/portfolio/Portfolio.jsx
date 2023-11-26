@@ -25,12 +25,7 @@ const items = [
         desc: "Dog Website using Tailwind CSS",
         link: "https://kevsterde.github.io/tailwind1/"
     },
-    {
-        id: 4,
-        title: "Java Commerce",
-        img: "https://images.pexels.com/photos/18650061/pexels-photo-18650061/free-photo-of-woman-sitting-and-working-on-laptop.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel voluptas perspiciatis, quae veritatis aut hic rem magnam provident ducimus consequuntur! Odit nihil pariatur accusantium delectus aliquid ducimus quae officia.",
-    },
+
 ]
 
 

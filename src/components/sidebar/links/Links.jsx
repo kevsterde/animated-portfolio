@@ -33,7 +33,7 @@ const itemvariants = {
 function Links() {
     const items = [
         "Homepage",
-        "Services",
+        "Skills",
         "Portfolio",
         "Contact",
         "About",
