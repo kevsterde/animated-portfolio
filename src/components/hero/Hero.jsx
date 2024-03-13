@@ -64,7 +64,7 @@ function Hero() {
             <motion.img
               variants={textVariants}
               animate="scrollButton"
-              src="/scroll.png"
+              src="images/scroll.png"
               alt=""
             />
           </a>
@@ -76,11 +76,11 @@ function Hero() {
         initial="initial"
         animate="animate"
       >
-        <img src="/html.png" alt="" />
-        <img src="/css.png" alt="" />
-        <img src="/js.png" alt="" />
-        <img src="/react.png" alt="" />
-        <img src="/wordpress.png" alt="" />
+        <img src="images/html.png" alt="" />
+        <img src="images/css.png" alt="" />
+        <img src="images/js.png" alt="" />
+        <img src="images/react.png" alt="" />
+        <img src="images/wordpress.png" alt="" />
       </motion.div>
       <motion.div
         className="imageContainer"
@@ -94,7 +94,7 @@ function Hero() {
           },
         }}
       >
-        <img src="/kwr.png" alt="kevin revalde" />
+        <img src="images/kwr.png" alt="kevin revalde" />
       </motion.div>
     </div>
   );

@@ -5,47 +5,66 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const items = [
   {
+    id: 8,
+    title: "NEXT JS PRACTICE",
+    img: "images/nextjs.png",
+    desc: "Blog Posting Site using React JS",
+    link: "https://nextjs-praktis.netlify.app/",
+  }
+  ,
+  {
+    id: 7,
+    title: "React Note App",
+    img: "images/noteapp.png",
+    desc: "CRUD Note App using React Js and Firebase",
+    link: "https://kwrreact-noteapp.netlify.app/",
+  }
+  ,
+  {
+    id: 4,
+    title: "KWR Font",
+    img: "images/kwrfont.png",
+    desc: "KWRFONT is a website where you can store, access, and utilize style fonts css with just copy & paste to your stylesheet. React JS and Firebase",
+    link: "https://kevsterde.great-site.net/kwrfont/",
+  },
+  {
     id: 1,
     title: "WFH-JOB FINDER",
-    img: "./wfh-jobfinder.png",
+    img: "images/wfh-jobfinder.png",
     desc: "WFH-JOB FINDER is a job posting website built using Bubble.io",
     link: "https://wfh-jobfinder.bubbleapps.io/version-test",
   },
   {
     id: 2,
     title: "ANG SHARERAP",
-    img: "./angsharerap.png",
+    img: "images/angsharerap.png",
     desc: "Ang Sharerap is a recipe sharing platform website so that user can share their delicious recipe. Website is developed using Bubble.io",
     link: "https://ang-sharerap.bubbleapps.io/version-test/",
   },
   {
     id: 3,
     title: "RETSBEW SHOP",
-    img: "./retsbew.png",
+    img: "images/retsbew.png",
     desc: "RETSBEW SHOP is a online selling platform where you can post and sell your product. Website is developed using Bubble.io",
     link: "https://retsbew.bubbleapps.io/version-test",
   },
-  {
-    id: 4,
-    title: "KWR Font",
-    img: "./kwrfont.png",
-    desc: "KWRFONT is a website where you can store, access, and utilize style fonts css with just copy & paste to your stylesheet.",
-    link: "https://kevsterde.great-site.net/kwrfont/",
-  },
+
   {
     id: 5,
     title: " KWR Generator",
-    img: "/kwrgenerator.webp",
+    img: "images/kwrgenerator.webp",
     desc: "I created this kwrgenerator to develop the website effeciently by inputting only the title, paragraphs, alt value then returning a html structured and css style.",
     link: "https://kevsterde.github.io/kwrgenerator/",
   },
   {
     id: 6,
     title: "PawTrain",
-    img: "/pawtrain.webp",
+    img: "images/pawtrain.webp",
     desc: "Dog Website using Tailwind CSS",
     link: "https://kevsterde.github.io/tailwind1/",
   },
+
+
 ];
 
 const Single = ({ item }) => {

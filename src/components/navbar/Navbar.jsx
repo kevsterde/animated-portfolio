@@ -14,10 +14,8 @@ function Navbar() {
                     transition={{ duration: 0.5 }}
                 >&lt;&#8725;Kevin Web&gt;</motion.span>
                 <div className="social">
-                    <a href='https://www.linkedin.com/in/kevin-webster-revalde-952444248/' target='_blank'><img src="/linkin.png" alt="fb" /></a>
-                    <a href='#'><img src="/instagram.png" alt="fb" /></a>
-                    <a href='#'><img src="/youtube.png" alt="fb" /></a>
-                    <a href='https://github.com/kevsterde' target='_blank'><img src="/github.png" alt="github" /></a>
+                    <a href='https://www.linkedin.com/in/kevin-webster-revalde-952444248/' target='_blank'><img src="images/linkin.png" alt="fb" /></a>
+                    <a href='https://github.com/kevsterde' target='_blank'><img src="images/github.png" alt="github" /></a>
                 </div>
             </div>
         </div >

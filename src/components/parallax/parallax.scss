@@ -19,7 +19,7 @@
     }
 
     .mountains {
-        background: url("/mountains.png");
+        background: url("../images/mountains.png");
         background-size: cover;
         background-position: center bottom;
         width: 100%;
@@ -31,7 +31,7 @@
     }
 
     .star {
-        background: url("/stars.png");
+        background: url("../images/stars.png");
         background-size: cover;
         background-position: bottom;
         width: 100%;
@@ -44,7 +44,7 @@
 
     .planets {
         z-index: 2;
-        background: url("/planets.png");
+        background: url("../images/planets.png");
         background-size: cover;
         background-position: bottom;
         width: 100%;
